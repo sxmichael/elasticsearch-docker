@@ -4,4 +4,9 @@ path:
   plugins: /elasticsearch/plugins
   work: /data/work
 
+http.basic:
+  enabled: true
+  user: admin
+  password: admin_pw
+
 script.disable_dynamic: false
